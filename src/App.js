@@ -1,13 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header';
+import Footer from './components/footer';
+import Nav from './components/nav';
+import Projects from './components/projects';
+import About from './components/about';
+import Contact from './components/contact';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>Poppys Portfolio</h1>
-      
-      </header>
+       <Header/>
+     <Nav/>
+     <Footer/>
     </div>
   );
 }

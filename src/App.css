@@ -1,3 +1,11 @@
+:root {
+  --celeste: #bcf8ecff;
+  --light-blue: #aed9e0ff;
+  --prussian-blue: #1c3144ff;
+  --feldgrau: #596f62ff;
+  --melon: #fab3a9ff;
+}
+
 .App {
   text-align: center;
 }
