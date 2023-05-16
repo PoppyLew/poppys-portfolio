@@ -3,7 +3,8 @@ const Header = () => {
     return (
         <div className="header">
 
-            <h2>name, photo, links</h2>
+            <h1>Poppy Lewin</h1>
+            <h3>Software Developer</h3>
         </div>
     )
 }

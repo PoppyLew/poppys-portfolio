@@ -1,6 +1,9 @@
 const Contact = () => {
     return (
-        <h2>email </h2>
+        <div>
+            <h2>Get in touch </h2>
+            <p>This will be an area will all my contact details and relevant links</p>
+        </div>
     )
 }
 
