@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Header from './components/header';
 import Footer from './components/footer';
@@ -9,11 +10,13 @@ import { Route, Routes } from 'react-router';
 
 
 
+
 function App() {
   return (
     <div className="App" >
         <Header />
         <NavBar />
+        
         <Routes>
           <Route path="/" element={<Projects />} ></Route>
           <Route path="/about" element={<About />}></Route>
