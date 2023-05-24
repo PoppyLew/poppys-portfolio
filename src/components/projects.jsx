@@ -1,4 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
+import React, { useState } from 'react';
+
+
 
 var heroData = [
   {
@@ -25,7 +28,7 @@ var heroData = [
 const Projects = () => {
   return (
     <section id="projectsCarousel" className="hero-block">
-      <Carousel>
+      <Carousel >
         {heroData.map((hero) => {
           return (
             <Carousel.Item key={hero.id}>

@@ -19,6 +19,7 @@ const NavBar = () => {
             <Nav.Link as={Link} to="/" >Projects</Nav.Link>
             <Nav.Link as={Link} to="/about" >About me</Nav.Link>
             <Nav.Link as={Link} to="/contact" >Contact</Nav.Link>
+            <Nav.Link href='https://www.linkedin.com/in/poppy-lewin/'> <i class="bi bi-github"></i></Nav.Link>
      
        
         
