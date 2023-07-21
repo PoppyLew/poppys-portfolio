@@ -1,4 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
+import Card from 'react-bootstrap/Card';
 import React, { useState } from 'react';
 
 
@@ -6,22 +7,22 @@ import React, { useState } from 'react';
 var heroData = [
   {
     id: 1,
-    image: require("../assets/images/portfolioWebsite.jpg"),
-    title: "This very portfolio site",
+    image: require("../assets/images/keyboard.jpg"),
+    title: "Portfolio Website",
     description:
-      "I decided to use react to recover and expand my knowledge. I did want to be able to challenge myself with something new though so I have been using Bootstrap for the first time to create a responsive user experience",
-    techStack: ["react", "bootstrap", "vscode"],
+      " This project focuses on creating a dynamic portfolio website that highlights my knowledge of React and has introduced me to Bootstrap",
+    techStack: "Language: Javascript \n FrontEnd: React, Bootstrap \n Build: Git, VsCode",
     gitLink: "https://github.com/PoppyLew/portfolio-project",
   },
   {
     id: 2,
-    image: require("../assets/images/coffeeHelp.jpg"),
+    image: require("../assets/images/coffebeans.jpg"),
     title: "Coffee Help",
     description:
       "This was created as a group project during the final phase of my study with Northcoders Coding Bootcamp",
-    techStack: ["flutter", "firebase", "vscode"],
+    techStack: "Language: Dart \n FrontEnd: Flutter \n BackEnd: Firebase Firestore \n Build: Git, VsCode, Xcode, Android Studio",
     gitLink: "https://github.com/PoppyLew/Coffee-Help-",
-    otherLinks: "youtube.com/watch?v=jF7IJb47cdM",
+    otherLinks: {demo: "youtube.com/watch?v=jF7IJb47cdM"},
   },
 ];
 
@@ -33,15 +34,22 @@ const Projects = () => {
           return (
             <Carousel.Item key={hero.id}>
               <img
+                style={{height:'20em' }}
                 className="d-block w-100"
-                src={hero.image}
+                src={hero.image} 
                 alt={"Slide" + hero.id}
+
               />
-              <Carousel.Caption>
+              <Carousel.Caption >
+                <div className=" w-100 d-flex flex-column justify-content-center align-items-center">
                 <h3>{hero.title}</h3>
                 <p>{hero.description}</p>
                 <p>{hero.techStack}</p>
-                <a className='btn btn-primary' href={hero.gitLink}>GitHub</a>
+                <a className='btn btn-primary'>More information here</a>
+               
+
+
+                </div>
               </Carousel.Caption>
             </Carousel.Item>
           );
