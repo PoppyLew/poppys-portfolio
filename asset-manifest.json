@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/poppys-portfolio/static/css/main.143263a3.css",
-    "main.js": "/poppys-portfolio/static/js/main.33990ea8.js",
+    "main.css": "/poppys-portfolio/static/css/main.a3a01b86.css",
+    "main.js": "/poppys-portfolio/static/js/main.c131c85d.js",
     "static/js/787.21f15628.chunk.js": "/poppys-portfolio/static/js/787.21f15628.chunk.js",
-    "static/media/coffebeans.jpg": "/poppys-portfolio/static/media/coffebeans.7698d735629419ce7fe8.jpg",
-    "static/media/keyboard.jpg": "/poppys-portfolio/static/media/keyboard.bca4ba30d391f28039a2.jpg",
+    "static/media/coffimg2.png": "/poppys-portfolio/static/media/coffimg2.0d69d40bd6f4c6d73f29.png",
+    "static/media/keyboard.jpg": "/poppys-portfolio/static/media/keyboard.7de4f6d719950f2ed882.jpg",
+    "static/media/portimg2.jpg": "/poppys-portfolio/static/media/portimg2.78e2855d98566cf9cf32.jpg",
+    "static/media/coffebeans.jpg": "/poppys-portfolio/static/media/coffebeans.1b1f069542c431bb7318.jpg",
     "index.html": "/poppys-portfolio/index.html",
-    "main.143263a3.css.map": "/poppys-portfolio/static/css/main.143263a3.css.map",
-    "main.33990ea8.js.map": "/poppys-portfolio/static/js/main.33990ea8.js.map",
+    "main.a3a01b86.css.map": "/poppys-portfolio/static/css/main.a3a01b86.css.map",
+    "main.c131c85d.js.map": "/poppys-portfolio/static/js/main.c131c85d.js.map",
     "787.21f15628.chunk.js.map": "/poppys-portfolio/static/js/787.21f15628.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.143263a3.css",
-    "static/js/main.33990ea8.js"
+    "static/css/main.a3a01b86.css",
+    "static/js/main.c131c85d.js"
   ]
 }
