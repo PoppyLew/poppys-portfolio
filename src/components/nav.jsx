@@ -8,7 +8,7 @@ import { NavbarBrand } from "react-bootstrap";
 
 const NavBar = () => {
     return (
-<Navbar collapseOnSelect expand="lg" bg="light"  style={{opacity: '0.95'}}
+<Navbar collapseOnSelect expand="lg" bg="light"   fixed="top" 
 >
       <Container id="navbar">
         <NavbarBrand as={Link} to="/">Poppy Lewin</NavbarBrand>
