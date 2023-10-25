@@ -1,28 +1,60 @@
 :root {
-  --celeste: #bcf8ecff;
-  --light-blue: #aed9e0ff;
-  --prussian-blue: #1c3144ff;
-  --feldgrau: #596f62ff;
-  --melon: #fab3a9ff;
+  --umber: rgb(123, 45, 38);
+  --olive: rgb(117, 112, 78);
+  --honeydew: rgb(224, 242, 233);
+  --melon: rgb(237, 175, 151);
+  --black: rgb(19, 3, 3);
+  --charcoal: rgb(55, 63, 81);
+  --off-white: rgb(248, 246, 243);
+  --lilac: rgb(124, 114, 160);
+  --green: rgb(118, 137, 72);
+  --shade-black: rgba(12, 7, 1, 0.7);
+  --shade--white: rgba(248, 246, 243, 0.8);
 }
 
 .App {
   text-align: center;
+
   
 }
 
+.circleImg {
+  max-width: 250px;
+  
+}
 
-
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1200px;
+}
 
 
 .navLink {
-  color: var(--prussian-blue);
+  color: var(--black);
 
 
 }
 
+.btn.btn-primary {
+  background: var(--charcoal);
+  border-color: var(--charcoal);
+  
+
+  padding: 13px 35px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+  background: var(--umber);
+  border-color: var(--umber);
+  color: var(--melon);
+}
+
 #navbar .navbar-brand {
-  color: var(--prussian-blue);
+  color: var(--black);
   font-weight: 600;
   height: auto;
   padding: 0;
@@ -32,6 +64,116 @@
 
 
 
+#carouselCaption1 {
+background-color: var(--shade--white);
+  color: var(--black);
+  border-radius: 25px;
+  max-width: 900px;
+  align-content: center;
+  
+  
+  
+}
+
+#carouselCaption2 {
+  background-color: rgba(12, 7, 1, 0.7);
+  border-radius: 25px;
+  max-width: 900px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px;
+  color: inherit;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+p {
+  margin: 0 0 15px;
+
+}
+
+a {
+  color: #f64b4b;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #f41a1a;
+}
 
 
+.project-block {
+  padding: 70px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
 
+.project-block .project-title {
+  margin-bottom: 3em;
+
+  
+}
+
+
+.hero-block {
+  margin: 65px 0 0;
+}
+
+.hero-block .carousel-item:before {
+  content: '';
+ 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero-block .carousel-item img {
+  width: auto;
+
+} 
+
+.hero-block .carousel-caption {
+  left: 25%;
+  right: 25%;
+  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  bottom: 45%;
+}
+
+.hero-block p {
+  margin: 0 0 30px;
+}
